@@ -42,7 +42,7 @@ class ImageProcessing(object):
     def gamma_correction(self, image, gamma):
 
         normalization_const = 255.0 / np.float_power(255, gamma)  # calculating normalizing constant for image matrix
-        output = np.uint8(normalization_const * np.float_power(image, gamma)) # compute output = constant * in^gamma
+        output = np.uint8(normalization_const * np.float_power(image, gamma)) # s = C * r^gamma
 
         return output  # return the computed image
 
@@ -54,7 +54,7 @@ class ImageProcessing(object):
 
         normalization_const = 255 / (np.log2(256))  # calculating normalizing constant for image matrix
 
-        # compute output = constant * log(input + 1)
+        # s = C * log(r + 1)
         # 1 is added to input to avoid log(0)
         output = np.int8(normalization_const * np.log2(image + np.ones((image_row, image_column))))
 
