@@ -73,14 +73,29 @@ python based application which provide following basic image processing operatio
 ## Usage
 
 ### Running the GUI:
-1. Change the directory to **EE610-image-editor** (`cd EE610-image-editor`)
-2. Run the main.py file (`python main.py`)
+1. Change the directory to **EE610-image-editor**
+   ```sh
+   cd EE610-image-editor
+   ```
+2. Run the main.py file
+   ```sh
+   python main.py
+   ```
 
 ### How to contribute?
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/ExampleFeature`)
-3. Commit your Changes (`git commit -m 'Add some ExampleFeature'`)
-4. Push to the Branch (`git push origin feature/ExampleFeature`)
+2. Create your Feature Branch
+   ```sh
+   git checkout -b feature/ExampleFeature
+   ```
+3. Commit your Changes
+   ```sh
+   git commit -m 'Added ExampleFeature'
+   ```
+4. Push to the Branch
+   ```sh
+   git push origin feature/ExampleFeature
+   ```
 5. Open a Pull Request
 
 <!-- CONTACT -->
