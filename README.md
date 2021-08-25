@@ -24,7 +24,7 @@ concise syntax you may use.
     <li>
         <a href="#usage">Usage</a>
         <ul>
-<li><a href="Running the GUI">Running the GUI:</a>
+<li><a href="#running-the-gui">Running the GUI:</a>
 </li>
 <li><a href="#how-to-contribute?">How to contribute?</a>
 </li>
@@ -66,7 +66,7 @@ python based application which provide following basic image processing operatio
    ```
 2. Install requirements
    ```sh
-   pip install -r requirements.txt
+   pip install -r requirement.txt
    ```
 
 <!-- USAGE EXAMPLES -->
