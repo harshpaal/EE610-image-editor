@@ -1,5 +1,0 @@
-PyQt5
-pyqt5-tools
-opencv-python
-matplotlib
-ui-to-py
