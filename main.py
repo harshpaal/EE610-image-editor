@@ -14,9 +14,9 @@ from PyQt5.QtGui import *
 
 from PyQt5.QtWidgets import QApplication, QFileDialog, QDialog, QWidget, QMainWindow
 
-# importing gui and image processing modules
+# importing ui and image processing modules
 from image_processing import *
-from gui import *
+from ui import *
 
 
 # main GUI window class
