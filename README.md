@@ -64,20 +64,19 @@ python based application which provide following basic image processing operatio
    ```sh
    git clone https://github.com/harshpaal/EE610-image-editor.git
    ```
-2. Install requirements
-   ```sh
-   pip install -r requirement.txt
-   ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-### Running the GUI:
-1. Change the directory to **EE610-image-editor**
+   
+2. Change the directory to **EE610-image-editor**
    ```sh
    cd EE610-image-editor
    ```
-2. Run the main.py file
+
+3. Install requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+   
+### Running the GUI:
+1. Run the main.py file
    ```sh
    python main.py
    ```
