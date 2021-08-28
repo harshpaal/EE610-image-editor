@@ -39,7 +39,7 @@ concise syntax you may use.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Image Editor](img\img_1.jpg "Topic Modelling")
+![Image Editor](iitb_logo.jpg "Topic Modelling")
 
 ### Introduction
 The **Basic Image Editor application** is a simple and easy to use 
