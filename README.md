@@ -62,7 +62,7 @@ python based application which provide following basic image processing operatio
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:harshpaal/EE610-image-editor.git
+   git clone https://github.com/harshpaal/EE610-image-editor.git
    ```
 2. Install requirements
    ```sh
