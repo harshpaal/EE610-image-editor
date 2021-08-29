@@ -73,7 +73,7 @@ class ImageProcessing(object):
 
         window = np.array([[1, 1, 1], [1, -8, 1], [1, 1, 1]])  # defining standard 3x3 Laplacian window
 
-        output = image + sharp_const * self.correlation(image, window)  # g(x,y) = f(x,y) + const*laplacian
+        output = image - sharp_const * self.correlation(image, window)  # g(x,y) = f(x,y) - const*laplacian
 
         # keeping output pixels in range 0 to 255
         output[output < 0] = 0  # replace pixels with value < 0 in output with 0
